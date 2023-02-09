@@ -14,7 +14,7 @@ import (
 func Client_register(c *gin.Context) {
 	// Make websocket connection
 	ws, err := upgrader.Upgrade(c.Writer, c.Request, nil)
-	if err != nil {
+	if err != ni {
 		return
 	}
 	// Generate connection id
